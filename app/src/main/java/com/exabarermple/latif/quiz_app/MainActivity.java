@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 //  calling input method  /////
-
+                input ( v );
 
                 //  for the checkboxes
                 one = (CheckBox) findViewById ( R.id.checkbox_true );
