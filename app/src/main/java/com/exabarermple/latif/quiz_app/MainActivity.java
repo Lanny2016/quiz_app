@@ -27,16 +27,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                // for question one (in the groupOne radioGroup  however this way we can only use for one radiobutton group
-                // does no work for more than one)
-
-                groupOne = (RadioGroup) findViewById ( R.id.group_one );
-              String question1 = ((RadioButton) findViewById ( groupOne.getCheckedRadioButtonId () )).getText ().toString ();Toast.makeText ( MainActivity.this, "The answer is " + question1, Toast.LENGTH_SHORT ).show ();
-                groupOne = (RadioGroup) findViewById(R.id.group_one );
-                groupTwo = (RadioGroup) findViewById(R.id.group_two );
-                groupThree = (RadioGroup)findViewById ( R.id.group_three );
+                //  calling for editText input
+                input(v);
 
             }
+
 
     });
 
