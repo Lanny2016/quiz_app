@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">quiz_app</string>
+
+    <!-- Strings for questions-->
+    <string name="questionOne">Which keyboard would you use if you wanted a class to
+    use an interface?</string>
+    <string name="questionTwo">Which packge is imported by default into Java program?</string>
+    <string name="questionThree">What is the purpose of class constructor?</string>
+    <string name="questionFour">What is the main programming language for Android Development?</string>
+    <string name="questionFive">Which of the following are java keywords?</string>
+
+    <!-- Strings for Radio buttons on question one-->
+    <string name="oneFirst">main()</string>
+    <string name="oneSecond">implements</string>
+    <string name="oneThird">extends</string>
+
+    <!-- Strings for Radio buttons on question two-->
+    <string name="twoFirst">java.lang</string>
+    <string name="twoSecond">java.awt</string>
+    <string name="twoThird">java.awt.font</string>
+
+    <!-- Strings for Radio buttons on question three-->
+    <string name="threeFirst">To extend a class</string>
+    <string name="threeSecond">To instantiate an object</string>
+    <string name="threeThird">To make objects initially
+            have certain value when they are instantiated</string>
+
+    <!-- Strings for CheckBox on question five-->
+    <string name="First">true</string>
+    <string name="Second">long</string>
+    <string name="Third">static</string>
+    <string name="fourth">end</string>
+</resources>
